@@ -5,12 +5,13 @@
 Clone with the `--recursive` option to checkout submodules automatically:
 
 ```bash
-git clone git@github.com:Ride2Rail/offer-enhancer.git
+git clone --recursive git@github.com:Ride2Rail/offer-enhancer.git offer-enhancer
 ```
 
 ## Running
 
 ```bash
+cd offer-enhancer/
 docker-compose build
 docker-compose up
 ```
