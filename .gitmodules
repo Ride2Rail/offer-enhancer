@@ -1,0 +1,6 @@
+[submodule "api"]
+	path = api
+	url = git@github.com:Ride2Rail/api.git
+[submodule "categorizer"]
+	path = categorizer
+	url = git@github.com:Ride2Rail/categorizer.git
